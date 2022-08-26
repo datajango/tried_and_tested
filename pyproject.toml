@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tried_and_tested"
+version = "0.1.0"
+description = "Test project for TDD"
+authors = ["Anthony Leotta <tony@leotta.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1"
+pytest = "^7.1.2"
+pytest-django = "^4.5.2"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
