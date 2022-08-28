@@ -26,5 +26,3 @@ Django, Pytest, TDD
     cd app
     poetry run pytest
     ```
-
-1.
